@@ -1,0 +1,90 @@
+
+/* body {
+ background-color: lime;
+   color:blue;
+   font-size: 24px;
+   font-family: 'Poppins', sans-serif;
+ }*/
+
+    body {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      font-size: 44px;
+      align-items: center;
+      min-height: 100vh;
+      background: url("https://telegra.ph/file/f7adf5f9a6e52163d0625.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      color: red;
+    }
+/*#phoneNumber{
+  font-size: 24px;
+  background-color: red;
+  color: lime;
+}*/
+ footer {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ }
+ footer {
+ background-color: lime;
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ }
+/* Add this CSS code to your stylesheet \*/
+
+/* Basic styling for the button \*/
+#bsubmit {
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-color 0.5s ease; /\* Smooth transition for background-color \*/
+}
+
+/* Hover effect \*/
+#bsubmit:hover {
+  background-color: #0056b3; /\* The color to which the button background changes on hover \*/
+}
+
+/* Animation on hover \*/
+@keyframes button-hover-animation {
+  from {
+    background-color: #007bff;
+  }
+  to {
+    background-color: #0056b3;
+  }
+}
+
+/* Apply the animation \*/
+#bsubmit:hover {
+  animation-name: button-hover-animation;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards; /\* Keeps the state of the animation at the end of the animation \*/
+}
+#phoneNumber {
+ width: 80%;
+  color: aqua;
+  background-color: black;
+ margin: 0 auto;
+ display: flex;
+ align-items: center;
+ border: 1px solid #ccc;
+ padding: 5px;
+ margin-bottom: 10px;
+  border-color: red;
+ 
+}
