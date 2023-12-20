@@ -1,20 +1,21 @@
-<!DOCTYPE html> 
- <html lang="en"> 
- <head> 
-     <meta charset="UTF-8"> 
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-     <title>InfinityAI Pairing</title>  
- </head> 
- <body> 
-     <h1>InfinityAI Pairing</h1>  
-     <form action="/requestPairingCode" method="post"> 
-         <label for="phoneNumber">Phone Number:</label> 
-         <input type="text" id="phoneNumber" name="phoneNumber" required> 
-         <button type="submit">Request Pairing Code</button> 
-     </form> 
-     <div id="pairingCode"> 
-         <!-- The pairing code will be displayed here --> 
-     </div> 
-     <footer>2023 Infinity Hackers Kenya</footer>  
- </body> 
-   </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfinityAI Pairing</title> 
+</head>
+<body>
+  <fieldset><legend>Infinity AI Pairing
+    <form action="/requestPairingCode" method="post">
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" required>
+      <br>    <center><button type="submit" id="bsubmit">Request Pairing Code</button></center>
+    </form></legend></fieldset>
+    <div id="pairingCode">
+        <!-- The pairing code will be displayed here -->
+    </div>
+    <footer><center>&copy 2023 Infinity Hackers Kenya!</center></footer> 
+</body>
+</html>
